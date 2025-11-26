@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: content-box;
+    color: white;
+    background: linear-gradient(rgb(9,9,100),#080f28);
+}
+
+.Portada {
+    height: 770px;
+    margin: 0;
+    padding: 20px;
+    padding-top: 40px;
+    background: url(https://images.squarespace-cdn.com/content/v1/5816af52e6f2e15be207b0cd/1601480843870-4GOHIYMVZ3STJGBBT2N6/splash_780-1344.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.Logo {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.Titulo-Principal {
+    width: 100%;
+    height: 30px;
+    font-size: 80px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #2439f9;
+}
+
+.Descripcion-Pelicula {
+    width: 500px;
+    height:175px;
+    padding-left: 15px;
+    font-size: 27px;
+    text-align: start;
+}
+
+.Reproductor , a {
+   margin-left: 55px;
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+   text-decoration:5px underline blue;
+}
+
+h2 {
+    margin: 20px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.similares {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.titulo {
+    margin: 60px;
+    font-size: 30px;
+}
+
+.accion {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.Terror {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.Romance {
+    padding: 10px;
+    padding-bottom: 50px;
+}
